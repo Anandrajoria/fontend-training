@@ -1,0 +1,36 @@
+/* column layout means the content will look in newspaper format */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    place-items: center;
+  }
+  
+  .hero-section {
+    margin-top: 100px;
+    width: 70%;
+  }
+
+  h1 {
+    font-family: "Urbanist", sans-serif;
+    font-size: 54px;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+  }
+  
+  p {
+    column-count: 3;
+    column-rule: 4px solid red;
+    column-gap: 50px;  
+    text-align: justify;
+  }
+  

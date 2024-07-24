@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 5rem ;
+}
+
+#main-heading {
+    color: #1e1403;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.parent-div {
+    width: 500px;
+    height: 500px;
+    color: #fff;
+    background: linear-gradient(to right, #514a9d, #24c6dc);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 15px;
+    overflow: hidden;
+    
+  }
+  
+  .child {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, #93edc7, #1cd8d2);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* to make the text center   */
+    display: grid;
+    place-items: center;
+    font-size: 32px;
+    color: #003180;
+
+  }
+  
+.parent-div{
+    position: relative;
+    left: 100px;
+}
+
+.child{
+    position: absolute;
+}
+
+.child-2{
+    z-index: 2;
+}
+
+
+/* .child-2{
+    top: 0;
+    right: 0;
+}
+
+.child-3{
+    bottom: 0;
+    left: 0;
+}
+.child-4{
+    bottom: 0;
+    right: 0;
+}
+.child-5{
+    top: 200px;
+    left: 200px;
+}
+ */

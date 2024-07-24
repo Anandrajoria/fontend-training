@@ -1,0 +1,55 @@
+/* absolute length : these length are fixed and these will appear as exactly the size*/
+/* relative length :these unit spacify the length relative to another length */
+
+/* static unit pixel (px) */
+/* h1{
+    font-size: 54px;
+    color: purple;
+}
+p{
+    font-size: 36px;
+}
+
+li{
+    font-size: 44px;
+} */
+
+/* relative unit 100% = 16px*/
+/* 1px=6.25% */
+
+/* ! 1em = 16px */
+/* it calculate based on the font size of parent element */
+
+/* h1{
+    font-size: 3em;
+}
+p{
+    font-size: 2.25em;
+}
+
+.parent{
+    font-size: 10px;    //here because of font size of parent 1em = 10px
+}
+li{
+    font-size: 2.75em;
+} */
+
+
+/* ? 1 rem  = we can specify its font size of our will*/
+
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 5.4rem;
+}
+p{
+    font-size: 3.6rem;
+}
+.parent{
+    font-size: 20px;
+}
+
+li{
+    font-size: 4.4rem;
+}
